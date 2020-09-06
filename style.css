@@ -1,0 +1,179 @@
+.container{
+
+	width: 1140px;
+	font-family: gabriola;
+	margin-left:175px;
+	margin-top: 0px;
+	padding: 0px;
+	 
+}
+.header{
+
+	width: 1138px;
+	height: 110px;
+	margin: 0px;
+	padding: 1px;
+
+}
+ul{
+	list-style: none;
+}
+ ul li a{
+	float:right;
+	font-size: 24px;
+	text-decoration: none;
+	margin-top: 50px;
+	color: black;
+}
+ul li a:hover{
+	 
+	border-bottom: 2px solid red;
+	text-decoration: none;
+    color: darkblue;
+	 
+}
+
+.image{
+
+	width: 1138px;
+	height: 650px;
+	margin: 0px;
+	padding: 1px;
+	animation: animate 15s normal infinite;
+
+
+}
+@keyframes animate{
+	0%,100%{
+		background-image: url("Home.jpg");
+		 
+	}
+	75%{
+		background-image: url(image12.jpg);
+	}
+	50%{
+		background-image: url(image13.jpg);
+	}
+	25%{
+		background-image: url(image11.jpg);
+	}
+
+
+}
+
+.Relation{
+
+	width: 1138px;
+	height: 500px;
+	background-color: #6666ff;
+	margin: 0px;
+	padding: 1px;
+
+}
+.Destination{
+	width: 1138px;
+	height: 600px;
+	background-image: linear-gradient(90deg,#3e32a8,#e310c7);
+	margin: 0px;
+	padding: 1px;
+
+}
+.Destination  a{
+	color: white;
+	text-decoration: none;
+}
+.box{
+	float: left;
+	width:368px;
+	height: 235px;
+	position: relative;
+	margin: 5px;
+	overflow: hidden;
+}
+.img{
+
+	width:375px;
+	height: 240px;
+}
+.content{
+	position: absolute;
+	width:100%;
+	height: 100%;
+	top: 190px;
+	left: 10px;
+	font-size: 20px;
+
+}
+
+.Destination img:hover{
+	z-index: 1;
+	transform: scale(1.2);
+}
+ .content:hover{
+ 	transform: scaleY(1.2);
+ }
+
+.Map{
+
+	width: 1138px;
+	height: 500px;
+	background-color: lightgray;
+	margin: 0px;
+	padding: 1px;
+
+}
+.Navigation{
+
+	width: 1138px;
+	height: 400px;
+	margin: 0px;
+	padding: 1px;
+
+}
+.Navigation a{
+	color: black;
+	text-decoration: none;
+
+}
+.Navigation a:hover{
+
+}
+.sitemap{
+	 
+	width: 380px;
+	height: 400px;
+	background-color: #6E6658;
+	margin: 0px;
+	padding: 1px;
+	float: right;
+
+}
+ 
+.media{
+    font-size:24px;
+	width: 380px;
+	height: 400px;
+	background-color: #6E6658;
+	margin: 0px;
+	padding: 1px;
+	float: right;
+
+}
+.support{
+	font-size:24px;
+	width: 372px;
+	height: 400px;
+	background-color: #6E6658;
+	margin: 0px;
+	padding: 1px;
+	float: right;
+
+}
+.footer{
+	width: 1140px;
+	height: 40px;
+	background-color: black;
+	margin: 0px;
+	padding: 1px;
+	 
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image slide</title>
+	<script type="text/javascript">
+		 
+		var image1=new Image();
+		image1.src="image1.jpg";
+		var image2=new Image();
+		image2.src="image2.jpg";
+		var image3=new Image();
+		image3.src="image3.jpg";
+		 function a(){
+		 	document.write("I Am Sanjay");
+		 }
+		 
+	</script>
+</head>
+<body>
+	<div onmouseover="a()" onmouseout="slideit()">
+	<img src="image1.jpg" name="slide" width="600px" height="256px" style="position:absolute;">
+</div>
+	<script type="text/javascript">
+	var step=1;
+	function slideit(){
+		if(!document.images)
+		return;
+		document.images.slide.src=eval("image"+step+".src");
+		document.images.slide.src=eval("image"+step+".src");
+		 
+		if(step<3)
+			step++;
+		else
+			step=1;
+		setTimeout("slideit()",2500);
+	}
+	slideit();
+	</script>
+
+</body>
+</html>

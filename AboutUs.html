@@ -1,0 +1,122 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	 
+	<title>Nepsan Tour & Travel</title>
+	<link rel="stylesheet" type="text/css" href="AboutUs.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript">
+		 
+		var image1=new Image();
+		image1.src="image1.jpg";
+		var image2=new Image();
+		image2.src="image2.jpg";
+		var image3=new Image();
+		image3.src="image3.jpg";
+		 function a(){
+		 	 
+		 }
+		 
+	</script>
+</head>
+<body> 
+	<div class="container" >
+		<div class="header">
+			<img src="Tour.jpg" style="width: 20%; height: 100%; float: left;">
+			<ul> 
+				<li><a href="ContactUs.html">&nbsp;&nbsp;&nbsp;&nbsp;ContactUs&nbsp;</a> </li>
+				<li><a href="AboutUs.html">&nbsp;&nbsp;&nbsp;&nbsp;AboutUs </a> </li>
+				<li><a href="UpcommingTour.html">&nbsp;&nbsp;&nbsp;&nbsp;UpcommingTour</a> </li>
+				<li><a href="Gallery.html">&nbsp;&nbsp;&nbsp;&nbsp; Gallery</a> </li>
+				<li><a href="Index.html">Home</a> </li>
+			</ul>
+		</div>
+		<div class="image">
+			<div class="box">
+				<div onmouseover="a()" onmouseout="slideit()">
+					<img src="image1.jpg" name="slide" width="1138px" height="650px" style="position:absolute;">
+				</div>
+				<script type="text/javascript">
+					var step=1;
+					function slideit(){
+						if(!document.images)
+							return;
+						document.images.slide.src=eval("image"+step+".src");
+						document.images.slide.src=eval("image"+step+".src");
+						if(step<3)
+							step++;
+						else
+							step=1;
+						setTimeout("slideit()",2500);
+					}
+					slideit();
+				</script>
+				
+			</div>
+			<div class="content">
+				<h1>Join With Nepsan Tour And Travel</h1>
+			</div>
+		</div>
+
+		<div class="Contact" style="font-style: inherit;">
+			 <ul>
+			 	<li style="padding-left:20px;width: 300px; height:250px;float: left;padding-top: 40px;">
+			 	<b style="font-size: 20px;">Our Realationship With Guest</b> <br>
+			 		Our relationship with guests is warm and kind.We can honestly say that we enjoy our job.
+			 	</li>
+			 	<li style="padding-left:20px;width: 300px; height:250px;float: left;padding-top: 40px;">
+			 		 <b style="font-size: 20px;"> Guest Care</b> <br>
+			 		 We provide our guests with security,we take care of them even when they are sleeping.
+			 	</li>
+			 	<li style="padding-left:20px;width: 300px; height:250px;float: left;padding-top: 40px;">
+			 		 <b style="font-size: 20px;">Domestic atmosphere</b> <br>
+			 		 Since we are very approachable, a domestic andfriendly atmosphere is present, without feeling commercialism.
+			 	</li>
+			 </ul>
+		</div>
+		<div class="Relation">
+			<h1 align="center" >Our Related Partner</h1>
+			 <img src="logo1.jpg" width="20%" height="60%"></a>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 <a href="#" ><img src="logo2.jpg" width="20%" height="60%"  ></a>
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			 <a href="#" ><img src="logo3.jpg" width="20%" height="60%"></a>
+			 <br><br><br><br><br><br>
+		</div>
+		<div class="Navigation">
+			<div class="support">
+				<h1>Support</h1>
+				<p>GangaSagar,JanakPur</p>
+				<p>Smnss1234@gmail.com</p>
+				<p>9815871388</p>
+			</div>
+
+			<div class="media">
+			    <h1>Follow Us On </h1>
+			    <a href="#" ><i class="fa fa-facebook-official fa-4x" aria-hidden="true"></i>&nbsp;&nbsp;
+			    <a href="#" > <i class="fa fa-youtube fa-4x" aria-hidden="true"></i> &nbsp;&nbsp;
+			    <a href="#"><i class="fa fa-twitter-square fa-4x" aria-hidden="true"></i>&nbsp;&nbsp;
+			</div>
+
+			<div class="sitemap" style="font-size: 24px; text-decoration: none;">
+				<h1>SiteMap</h1>
+				<a href="#">Home</a><br>
+				<a href="#">Services</a><br>
+				<a href="#">UpCommingTour</a><br>
+				<a href="#">AboutUs</a><br>
+				<a href="#">ContactUs</a><br>
+			</div>
+
+		</div>
+		<div class="footer">
+			<p align="center"style="color: white"> © COPYRIGHT 2012 - Nepsan TOur & Travel, All Rights Reserved</p>
+		</div>
+	</div>
+</body>
+</html>

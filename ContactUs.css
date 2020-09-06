@@ -1,0 +1,146 @@
+.container{
+
+	width: 1140px;
+	margin-left:175px;
+	margin-top: 0px;
+	padding: 0px;
+	 
+}
+.header{
+
+	width: 1138px;
+	height: 110px;
+	margin: 0px;
+	padding: 1px;
+	font-family: gabriola;
+
+}
+ul{
+	list-style: none;
+}
+ ul li a{
+	float:right;
+	font-size: 24px;
+	text-decoration: none;
+	margin-top: 50px;
+}
+ul li a:hover{
+	color: darkblue;
+	border-bottom: 1px solid red;
+	 
+}
+.image1{
+
+	background-image: url("contact.jpg");
+	width: 1138px;
+	height: 550px;
+	margin: 0px;
+	padding: 1px;
+	font-size: 30px;
+	color: white;
+	font-family: gabriola;
+
+
+}
+
+.image{
+
+ 
+	width: 1138px;
+	height: 1250px;
+	margin: 0px;
+	padding: 1px;
+	background-color: lightgray;
+
+}
+
+.contact{
+
+
+	 
+	width: 700px;
+	height: 500px;
+	margin-left: 120px;
+	padding: 100px;
+
+}
+ form input{
+ 	border-top:1px;
+ 	border-right: 1px;
+ 	border-left: 1px;
+
+ }
+
+
+.Relation{
+
+	width: 1138px;
+	height: 500px;
+	background-color: #6666ff;
+	margin: 0px;
+	padding: 1px;
+
+}
+
+.Map{
+
+	width: 1138px;
+	height: 500px;
+	background-color: lightgray;
+	margin: 0px;
+	padding: 1px;
+
+}
+.Navigation{
+
+	width: 1138px;
+	height: 400px;
+	margin: 0px;
+	padding: 1px;
+
+}
+.sitemap{
+	 
+	width: 380px;
+	height: 400px;
+	background-color: #6E6658;
+	margin: 0px;
+	padding: 1px;
+	float: right;
+
+}
+a{
+	text-decoration: none;
+    color: black;
+}
+a:hover{
+	color: darkblue;
+}
+.media{
+    font-size:24px;
+	width: 380px;
+	height: 400px;
+	background-color: #6E6658;
+	margin: 0px;
+	padding: 1px;
+	float: right;
+
+}
+.support{
+	font-size:24px;
+	width: 372px;
+	height: 400px;
+	background-color: #6E6658;
+	margin: 0px;
+	padding: 1px;
+	float: right;
+
+}
+.footer{
+	width: 1140px;
+	height: 40px;
+	background-color: black;
+	margin: 0px;
+	padding: 1px;
+	 
+}
